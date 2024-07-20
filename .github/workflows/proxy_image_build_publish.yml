@@ -34,7 +34,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           no-cache: true
           push: true
-          tags: bahmni/proxy:${{env.ARTIFACT_VERSION}},bahmni/proxy:latest
+          tags: anish443/proxy:${{env.ARTIFACT_VERSION}},anish443/proxy:latest
   trigger:
       name: Trigger auto deploy 
       runs-on: ubuntu-latest
