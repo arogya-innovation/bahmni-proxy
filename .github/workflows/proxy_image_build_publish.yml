@@ -40,7 +40,7 @@ jobs:
       runs-on: ubuntu-latest
       needs: docker-build-publish
       env:
-        ORG_NAME: Bahmni
+        ORG_NAME: arogya-innovation
         REPOSITORY_NAME: bahmni-docker
         EVENT_TYPE: bahmni-proxy-publish-event
       steps:
